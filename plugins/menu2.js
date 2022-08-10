@@ -5,7 +5,7 @@ let time = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 conn.sendHydrated(m.chat, '*『 ʀɪᴍᴜʀᴜ ʙᴏᴛᴢ 』*', `ʜᴀɪ. sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ, ʙᴏᴛ ɪɴɪ ʙɪsᴀ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴏᴡʟᴏᴀᴅ ᴛɪᴋᴛᴏᴋ,ғʙ,ɪɢ,ʏᴏᴜᴛᴜʙᴇ, ᴅᴀɴ ʟᴀɪɴɴʏᴀ. sɪʟᴀʜᴋᴀɴ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ᴅɪ ʙᴀᴡᴀʜ,\n\nᴅᴀᴛᴇ: ${date}\nᴛɪᴍᴇ: ${time} ﹙ɢᴍᴛ +7:00)`.trim(), './src/yuki.jpg', 'bit.ly/Papah-Chan', 'ʏᴏᴜᴛᴜʙᴇ ᴏᴡɴᴇʀ', null, null, [
 [`🗡️ᴀʟʟ ᴍᴇɴᴜ`, '.? all'],
 [`🐦ʟɪsᴛ ᴍᴇɴᴜ`, '.menulist']
-[`🐦ᴅᴀsʜʙᴏʀᴅ`, 'menulist']
+[`✨ᴅᴀsʜʙᴏʀᴅ`, '.dashboard']
 ], m, {asLocation: true})
 }
 handler.help = ['menu']
