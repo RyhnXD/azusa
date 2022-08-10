@@ -49,18 +49,16 @@ global.nameown = 'ʀɪᴍᴜʀᴜ'
 
 
 /*============== STAFF ==============*/
-global.owner = [
-  ['6289524208209']
   ['6289524208209'],
-  ['62895627514070'],
-  ['62895627514070'],
-  ['62895627514070', 'Han', true]
-  ['6281779211748', 'ʙᴏᴛ', true]
-  ['6289524208209', 'ᴏᴡɴᴇʀ ʙᴏᴛ', true]
+  ['6289524208209'],
+  ['6281779211748'],
+  ['6289524208209', 'ʀᴀʏʜɴ', true]
+  ['628956275140870', 'owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [] 
-global.prems = [] 
+global.mods = [] // Want some help?
+global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+
 
 
 /*============== API ==============*/
