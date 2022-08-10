@@ -53,8 +53,6 @@ global.nameown = 'ʀɪᴍᴜʀᴜ'
   ['62895627514070'],
   ['6281779211748'],
   ['6289524208209', 'ʀᴀʏʜɴ', true]
-  // [number, dia creator/owner?, dia developer?]
-]
 global.mods = [] // Want some help?
 global.prems = [] // Premium user '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘sᴀᴋᴜʀᴀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'bukan disini nambahinnya, ketik .addprem @user 10
 
