@@ -5,7 +5,7 @@ import { xpRange } from '../lib/levelling.js'
 
 let handler = async(m, { conn, groupMetadata, usedPrefix, text, args, command }) => {
 let imgr = flaaa.getRandom()
-let res = JSON.parse(readFileSync('./json/emoji.json'))
+let res = JSON.parse(readFileSync('./src/emoji.json'))
 let em = res.emoji
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
@@ -46,8 +46,8 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 *☢︎︎ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n Ketik *${usedPrefix}inv* untuk melihat Inventory RPG
 ${cmenua}`
 
-let weem = `ɢᴄ ʙᴏᴛ :`
-    await conn.sendButton(m.chat, cap, weem, Buffer.alloc(0), [[em.getRandom() + ' All Menu', usedPrefix + 'allmenu'], [em.getRandom() + ' List Menu', usedPrefix + 'menulist']], m, { mimetype: mim_.getRandom(), fileName: ucapan, pageCount: fpagedoc, fileLength: fsizedoc, seconds: fsizedoc, jpegThumbnail: await( await fetch(thumbnailUrl.getRandom())).buffer(), contextInfo: {
+let weem = `ɢᴄ ʙᴏᴛ :https://bit.ly/3vU9BOw`
+    await conn.sendButton(m.chat, cap, weem, Buffer.alloc(0), [[em.getRandom() + ' All Menu', usedPrefix + '? all'], [em.getRandom() + ' List Menu', usedPrefix + 'menulist']], m, { mimetype: mim_.getRandom(), fileName: ucapan, pageCount: fpagedoc, fileLength: fsizedoc, seconds: fsizedoc, jpegThumbnail: await( await fetch(hwaifu.getRandom())).buffer(), contextInfo: {
           externalAdReply :{
           showAdAttribution: true,
     mediaUrl: lin_.getRandom(),
